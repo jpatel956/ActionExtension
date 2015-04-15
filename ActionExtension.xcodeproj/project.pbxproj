@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		725BAEDA1ADE6EB2004CAAD2 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 725BAED81ADE6EB2004CAAD2 /* Database.m */; };
+		725BAEDB1ADE6EB2004CAAD2 /* password.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 725BAED91ADE6EB2004CAAD2 /* password.sqlite3 */; };
+		72C7FFC01ADE407D0084EEB4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C7FFBF1ADE407D0084EEB4 /* libsqlite3.0.dylib */; };
+		72C7FFC21ADE40830084EEB4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C7FFC11ADE40830084EEB4 /* libsqlite3.dylib */; };
+		72C7FFC31ADE40930084EEB4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C7FFBF1ADE407D0084EEB4 /* libsqlite3.0.dylib */; };
+		72C7FFC41ADE40970084EEB4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C7FFC11ADE40830084EEB4 /* libsqlite3.dylib */; };
 		A923A9141A35D064009121A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9131A35D064009121A3 /* main.m */; };
 		A923A9171A35D064009121A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9161A35D064009121A3 /* AppDelegate.m */; };
 		A923A91A1A35D064009121A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9191A35D064009121A3 /* ViewController.m */; };
 		A923A91D1A35D065009121A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A923A91B1A35D065009121A3 /* Main.storyboard */; };
 		A923A91F1A35D065009121A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A923A91E1A35D065009121A3 /* Images.xcassets */; };
 		A923A9221A35D065009121A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A923A9201A35D065009121A3 /* LaunchScreen.xib */; };
-		A923A92E1A35D065009121A3 /* ActionExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A92D1A35D065009121A3 /* ActionExtensionTests.m */; };
 		A923A9381A35D3D6009121A3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A923A9371A35D3D6009121A3 /* MobileCoreServices.framework */; };
 		A923A9431A35D585009121A3 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9421A35D585009121A3 /* ActionViewController.m */; };
 		A923A9451A35D585009121A3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A923A9441A35D585009121A3 /* MainInterface.storyboard */; };
@@ -22,13 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A923A9281A35D065009121A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A923A9061A35D063009121A3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A923A90D1A35D064009121A3;
-			remoteInfo = ActionExtension;
-		};
 		A923A9461A35D585009121A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A923A9061A35D063009121A3 /* Project object */;
@@ -53,6 +51,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		725BAED71ADE6EB2004CAAD2 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		725BAED81ADE6EB2004CAAD2 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		725BAED91ADE6EB2004CAAD2 /* password.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = password.sqlite3; sourceTree = "<group>"; };
+		72C7FFBF1ADE407D0084EEB4 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		72C7FFC11ADE40830084EEB4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		A923A90E1A35D064009121A3 /* ActionExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A923A9121A35D064009121A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A923A9131A35D064009121A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,7 +66,6 @@
 		A923A91C1A35D065009121A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A923A91E1A35D065009121A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A923A9211A35D065009121A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A923A9271A35D065009121A3 /* ActionExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A923A92C1A35D065009121A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A923A92D1A35D065009121A3 /* ActionExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionExtensionTests.m; sourceTree = "<group>"; };
 		A923A9371A35D3D6009121A3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -80,14 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C7FFC21ADE40830084EEB4 /* libsqlite3.dylib in Frameworks */,
+				72C7FFC01ADE407D0084EEB4 /* libsqlite3.0.dylib in Frameworks */,
 				A923A9381A35D3D6009121A3 /* MobileCoreServices.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A923A9241A35D065009121A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,15 +92,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C7FFC41ADE40970084EEB4 /* libsqlite3.dylib in Frameworks */,
+				72C7FFC31ADE40930084EEB4 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		725BAED61ADE6EB2004CAAD2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				725BAED71ADE6EB2004CAAD2 /* Database.h */,
+				725BAED81ADE6EB2004CAAD2 /* Database.m */,
+				725BAED91ADE6EB2004CAAD2 /* password.sqlite3 */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		A923A9051A35D062009121A3 = {
 			isa = PBXGroup;
 			children = (
+				72C7FFC11ADE40830084EEB4 /* libsqlite3.dylib */,
+				72C7FFBF1ADE407D0084EEB4 /* libsqlite3.0.dylib */,
 				A923A9371A35D3D6009121A3 /* MobileCoreServices.framework */,
 				A923A9101A35D064009121A3 /* ActionExtension */,
 				A923A92A1A35D065009121A3 /* ActionExtensionTests */,
@@ -116,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				A923A90E1A35D064009121A3 /* ActionExtension.app */,
-				A923A9271A35D065009121A3 /* ActionExtensionTests.xctest */,
 				A923A93D1A35D584009121A3 /* Action.appex */,
 			);
 			name = Products;
@@ -167,6 +177,7 @@
 		A923A93E1A35D584009121A3 /* Action */ = {
 			isa = PBXGroup;
 			children = (
+				725BAED61ADE6EB2004CAAD2 /* Database */,
 				A923A9411A35D585009121A3 /* ActionViewController.h */,
 				A923A9421A35D585009121A3 /* ActionViewController.m */,
 				A923A9441A35D585009121A3 /* MainInterface.storyboard */,
@@ -205,24 +216,6 @@
 			productReference = A923A90E1A35D064009121A3 /* ActionExtension.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A923A9261A35D065009121A3 /* ActionExtensionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A923A9341A35D066009121A3 /* Build configuration list for PBXNativeTarget "ActionExtensionTests" */;
-			buildPhases = (
-				A923A9231A35D065009121A3 /* Sources */,
-				A923A9241A35D065009121A3 /* Frameworks */,
-				A923A9251A35D065009121A3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A923A9291A35D065009121A3 /* PBXTargetDependency */,
-			);
-			name = ActionExtensionTests;
-			productName = ActionExtensionTests;
-			productReference = A923A9271A35D065009121A3 /* ActionExtensionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		A923A93C1A35D584009121A3 /* Action */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A923A94A1A35D585009121A3 /* Build configuration list for PBXNativeTarget "Action" */;
@@ -253,10 +246,6 @@
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = 7BCW99KL8P;
 					};
-					A923A9261A35D065009121A3 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = A923A90D1A35D064009121A3;
-					};
 					A923A93C1A35D584009121A3 = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -276,7 +265,6 @@
 			projectRoot = "";
 			targets = (
 				A923A90D1A35D064009121A3 /* ActionExtension */,
-				A923A9261A35D065009121A3 /* ActionExtensionTests */,
 				A923A93C1A35D584009121A3 /* Action */,
 			);
 		};
@@ -294,18 +282,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A923A9251A35D065009121A3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A923A93B1A35D584009121A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A923A9451A35D585009121A3 /* MainInterface.storyboard in Resources */,
+				725BAEDB1ADE6EB2004CAAD2 /* password.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,18 +304,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A923A9231A35D065009121A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A923A92E1A35D065009121A3 /* ActionExtensionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A923A9391A35D584009121A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725BAEDA1ADE6EB2004CAAD2 /* Database.m in Sources */,
 				A923A9431A35D585009121A3 /* ActionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,11 +316,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A923A9291A35D065009121A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A923A90D1A35D064009121A3 /* ActionExtension */;
-			targetProxy = A923A9281A35D065009121A3 /* PBXContainerItemProxy */;
-		};
 		A923A9471A35D585009121A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A923A93C1A35D584009121A3 /* Action */;
@@ -408,11 +378,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE = "6507870d-6f67-4137-9c15-9130a40a3143";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.2;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -445,11 +416,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "6507870d-6f67-4137-9c15-9130a40a3143";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.2;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
@@ -459,9 +431,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sandeep Mundra (844QDN74U4)";
 				INFOPLIST_FILE = ActionExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6507870d-6f67-4137-9c15-9130a40a3143";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -471,43 +446,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sandeep Mundra (844QDN74U4)";
 				INFOPLIST_FILE = ActionExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6507870d-6f67-4137-9c15-9130a40a3143";
-			};
-			name = Release;
-		};
-		A923A9351A35D066009121A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ActionExtensionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActionExtension.app/ActionExtension";
-			};
-			name = Debug;
-		};
-		A923A9361A35D066009121A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ActionExtensionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActionExtension.app/ActionExtension";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
@@ -554,14 +497,7 @@
 				A923A9331A35D066009121A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A923A9341A35D066009121A3 /* Build configuration list for PBXNativeTarget "ActionExtensionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A923A9351A35D066009121A3 /* Debug */,
-				A923A9361A35D066009121A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A923A94A1A35D585009121A3 /* Build configuration list for PBXNativeTarget "Action" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +506,7 @@
 				A923A94C1A35D585009121A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
